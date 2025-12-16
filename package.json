@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Full-stack Java developer portfolio - Tilak Kotapati",
   "private": true,
+  "type": "module",
   "homepage": "https://Tkotapati07.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
