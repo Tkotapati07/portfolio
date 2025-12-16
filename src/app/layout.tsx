@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: 'Tilak Kotapati | Full-Stack Java Developer',
   description:
     'Full-stack Java developer specializing in Spring Boot, microservices, AWS, and React. Portfolio featuring modern UX, accessibility, and performance.',
-  viewport: 'width=device-width, initial-scale=1',
   keywords: [
     'Java developer',
     'Spring Boot',
@@ -30,6 +29,11 @@ export const metadata: Metadata = {
     description: 'Portfolio featuring Spring Boot microservices and modern React UIs',
   },
   robots: 'index, follow',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
